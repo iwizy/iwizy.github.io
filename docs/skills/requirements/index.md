@@ -7,9 +7,9 @@ slug: /skills/requirements
 
 Раздел содержит информацию о проработке требований
 
-* Определение границ системы
+* [Определение границ системы](/docs/skills/requirements/system-borders/index.md)
 * [Виды и уровни требований](/docs/skills/requirements/requirements-types/index.md)
-* Сбор требований
-* Анализ и спецификация требований
+* [Сбор требований](/docs/skills/requirements/requirements-gathering/index.md)
+* [Анализ и спецификация требований](/docs/skills/requirements/requirements-analysis/index.md)
 * Управление требованиями
 * Выявление заинтересованных лиц
