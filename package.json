@@ -1,6 +1,6 @@
 {
   "name": "analysts-lounge",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "scripts": {
     "docusaurus": "docusaurus",
     "start": "docusaurus start",
