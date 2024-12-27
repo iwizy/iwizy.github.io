@@ -1,5 +1,5 @@
 ---
-sidebar_position: 1
+sidebar_position: 4
 slug: /skills/requirements
 ---
 
@@ -7,9 +7,9 @@ slug: /skills/requirements
 
 Раздел содержит информацию о проработке требований
 
-* [Определение границ системы](/docs/skills/requirements/system-borders/index.md)
-* [Виды и уровни требований](/docs/skills/requirements/requirements-types/index.md)
-* [Сбор требований](/docs/skills/requirements/requirements-gathering/index.md)
-* [Анализ и спецификация требований](/docs/skills/requirements/requirements-analysis/index.md)
-* [Управление требованиями](/docs/skills/requirements/requirements-management/index.md)
-* [Выявление заинтересованных лиц](/docs/skills/requirements/stakeholders/index.md)
+* [Определение границ системы](/docs/requirements/system-borders/index.md)
+* [Виды и уровни требований](/docs/requirements/requirements-types/index.md)
+* [Сбор требований](/docs/requirements/requirements-gathering/index.md)
+* [Анализ и спецификация требований](/docs/requirements/requirements-analysis/index.md)
+* [Управление требованиями](/docs/requirements/requirements-management/index.md)
+* [Выявление заинтересованных лиц](/docs/requirements/stakeholders/index.md)

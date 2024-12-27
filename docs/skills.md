@@ -9,14 +9,14 @@ slug: /skills
 
 Перечень разделен большие разделы, так будет проще ориентироваться в конкретной предметной области. Каждая компетений будет являться ссылкой на нашу базу знаний, которая раскрывает ее более глубоко.
 
-- [Инженерия требований](/docs/skills/requirements/index.md)
-- [Моделирование бизнеса и домена](/docs/skills/business-modeling/index.md)
-- [Системное проектирование](/docs/skills/system-design/index.md)
-- [Интеграция систем и сервисов](/docs/skills/integrations/index.md)
-- [Процесс разработки](/docs/skills/development/index.md)
-- [Общие компетенции](/docs/skills/common/index.md)
-- [Смежные навыки](/docs/skills/related-skills/index.md)
-- [Soft Skills](/docs/skills/soft-skills/index.md)
+- [Инженерия требований](/docs/requirements/index.md)
+- [Моделирование бизнеса и домена](/docs/business-modeling/index.md)
+- [Системное проектирование](/docs/system-design/index.md)
+- [Интеграция систем и сервисов](/docs/integrations/index.md)
+- [Процесс разработки](/docs/development/index.md)
+- [Общие компетенции](/docs/common/index.md)
+- [Смежные навыки](/docs/related-skills/index.md)
+- [Soft Skills](/docs/soft-skills/index.md)
 
 Важно понимать, что в подавляющем большинстве этот ресурс является перепечаткой статей из открытых источников. Все права принадлежат их автора и компаниям. В каждой статье обязательно будет указан их автор и ссылка на оригинальную статью.
 
