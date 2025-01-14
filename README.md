@@ -1,41 +1,21 @@
-# Website
+# База знаний системного аналитика
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+## Что это и для кого?
 
-### Installation
+Этот сайт создан, чтобы быть помощником для системного аналитика в получении базовых знаний.
 
-```
-$ yarn
-```
+## Откуда информация в базе знаний?
 
-### Local Development
+Карта компетенций взята из открытых источников. Наполнение же сгенерировано нейросетью и верифицировано опытными системными аналитиками.
 
-```
-$ yarn start
-```
+## А вы уверены, что так можно?
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+Да. Если бы мы все писали самостоятельно, это было бы очень долго по времени и часто бы накладывало контекст работы автора. Нейросеть же выдает консолидированную информацию, которую потом проверяют действующие аналитики из разных сфер.
 
-### Build
+## Зачем это сделано?
 
-```
-$ yarn build
-```
+Наша задача дать вам открытую и доступную карту компетенций и базовую информацию по каждому ее пункту. Это не заменяет полноценного обучения и практики, но точно поможет вам сориентироваться и понимать что вам следует изучить.
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+## Могу ли я помочь в наполнении базы знаний?
 
-### Deployment
-
-Using SSH:
-
-```
-$ USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+Да, это можно сделать разными способами. Напишите мне.
