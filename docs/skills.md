@@ -11,9 +11,9 @@ slug: /skills
 
 ## Работа с требованиями 🟠
 
-* Определение границ системы 🟢
-  * Зона ответственности проекта 🟢
-  * Ограничения 🟢
+* [Определение границ системы](/docs/requirements/system-borders/index.md) 🟢
+  * [Зона ответственности проекта](/docs/requirements/system-borders/responsibility.md) 🟢
+  * [Ограничения](/docs/requirements/system-borders/restrictions.md) 🟢
 * Уровни требований 🔴
   * Бизнес-требования 🔴
   * Пользовательские требования 🔴
