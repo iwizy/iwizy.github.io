@@ -22,7 +22,7 @@ slug: /skills
   * [Функциональные требования](/docs/requirements/requirements-types/functional.md) 🟢
   * [Нефункциональные требования](/docs/requirements/requirements-types/nonfunctional.md) 🟢
 * [Сбор требований](/docs/requirements/requirements-gathering/index.md) 🟢
-* Валидация и верификация требований 🔴
+* [Валидация и верификация требований](/docs/requirements/requirements-validation/index.md) 🟢
 * Подходы к спецификации требований 🔴
   * User Story 🔴
   * Job Story 🔴
