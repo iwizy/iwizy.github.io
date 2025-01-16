@@ -1,6 +1,6 @@
 ---
 sidebar_position: 2
-slug: /skills/requirements/requirements-types/functional
+slug: /skills/requirements/requirements-types/nonfunctional
 ---
 
 # Нефункциональные требования
