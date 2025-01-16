@@ -18,18 +18,9 @@ slug: /skills
   * [Бизнес-требования](/docs/requirements/requirements-level/business.md) 🟢
   * [Пользовательские требования](/docs/requirements/requirements-level/user.md) 🟢
   * [Системные требования](/docs/requirements/requirements-level/system.md) 🟢
-* Виды требований 🔴
-  * Функциональные требования 🔴
-  * Нефункциональные требования 🔴
-    * Производительность 🔴
-    * Надёжность 🔴
-    * Доступность 🔴
-    * Безопасность 🔴
-    * Масштабируемость 🔴
-    * Удобство 🔴
-    * Поддерживаемость 🔴
-    * Мониторинг 🔴
-    * Логирование 🔴
+* [Виды требований](/docs/requirements/requirements-types/index.md) 🟢
+  * [Функциональные требования](/docs/requirements/requirements-types/functional.md) 🟢
+  * [Нефункциональные требования](/docs/requirements/requirements-types/nonfunctional.md) 🟢
 * Сбор требований 🔴
   * Интервью 🔴
   * Наблюдение 🔴
