@@ -26,7 +26,7 @@ slug: /skills
 * [Подходы к спецификации требований](/docs/requirements/requirements-technics/index.md) 🟢
 * [Критерии качества требований](/docs/requirements/requirements-quality/index.md) 🟢
 * [Структурирование требований](/docs/requirements/requirements-structuring/index.md) 🟢
-* Декомпозиция требований 🔴
+* [Декомпозиция требований](/docs/requirements/requirements-decomposition/index.md) 🟢
 * Управление требованиями 🔴
   * Трассировка требований 🔴
   * Поддержка актуальности (maintain requirements) 🔴
