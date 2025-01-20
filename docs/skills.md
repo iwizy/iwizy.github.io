@@ -113,23 +113,23 @@ slug: /skills
   * Электронная подпись 🔴
   * Основные уязвимости веб-сервисов и приложений 🔴
 
-## Базы данных 🔴
+## Базы данных 🟠
 
-* Типы БД 🟠
-  * Реляционные 🔴
-  * noSQL 🔴
-    * Документоориентированные 🔴
+* [Типы](/docs/database/types/index.md) БД 🟠
+  * [Реляционные](/docs/database/types/index.md) 🟢
+  * [noSQL](/docs/database/types/index.md) 🟢
+    * [Документоориентированные](/docs/database/types/db-doc.md) 🟢
     * Ключ-значение 🔴
     * Колоночные 🔴
     * Временной ряд 🔴
     * Графовые 🔴
     * Поисковые 🔴
-* Рапределенные реесты 🔴
+* [Рапределенные реестры](/docs/database/distributed-registries/index.md) 🔴
   * Blockchain и смарт-контракты 🔴
-* Проектирование модели данных 🔴
-* Нормализация и денормализация 🔴
+* [Проектирование модели данных](/docs/database/data-model-design/index.md) 🔴
+* [Нормализация и денормализация](/docs/database/normalization/index.md) 🔴
   * Нормальные формы 🔴
-* SQL 🔴
+* [SQL](/docs/database/sql/index.md) 🔴
   * Селекты 🔴
   * Агрегатные функции 🔴
   * Группировка и сортировка 🔴
@@ -137,12 +137,12 @@ slug: /skills
   * Индексы 🔴
   * Хранимые процедуры и пользовательские функции 🔴
   * Оконные функции 🔴
-* Масштабирование БД 🔴
+* [Масштабирование БД](/docs/database/scaling/index.md) 🔴
   * Партицирование 🔴
   * Шардирование 🔴
-* Master Data management (MDM) 🔴
-* Реплицирование данных 🔴
-* Бекапирование данных 🔴
+* [Master Data management (MDM)](/docs/database/mdm/index.md) 🔴
+* [Реплицирование данных](/docs/database/replication/index.md) 🔴
+* [Бекапирование данных](/docs/database/backup/index.md) 🔴
 
 ## Интеграции 🔴
 
