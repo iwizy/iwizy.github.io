@@ -15,7 +15,7 @@ const config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://iwizy.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -43,7 +43,10 @@ const config = {
       ({
         docs: {
           routeBasePath: '/',
-          sidebarPath: './sidebars.js',
+          path: 'docs',
+          sidebarPath: require.resolve('./sidebars.js'),
+          lastVersion: 'current',
+          onlyIncludeVersions: ['current'],
         },
         blog: false,
         theme: {
@@ -52,7 +55,26 @@ const config = {
       }),
     ],
   ],
-
+  plugins: [
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'requirements',
+        path: 'requirements',
+        routeBasePath: 'requirements',
+        sidebarPath: require.resolve('./sidebars.js'),
+      }, 
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'database',
+        path: 'database',
+        routeBasePath: 'database',
+        sidebarPath: require.resolve('./sidebars.js'),
+      }, 
+    ],
+  ],
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
@@ -66,10 +88,10 @@ const config = {
         },
         items: [
           {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
+            to: '/docs/requirements',    // ./docs/Intro.md
+            label: 'Требования',
             position: 'left',
-            label: 'База знаний',
+            activeBaseRegex: `/requirements`,
           },
           {
             href: 'https://github.com/iwizy.iwizy.github.io',
