@@ -1,6 +1,6 @@
 ---
 sidebar_position: 7
-slug: /skills/database/mdm
+slug: /database/mdm
 ---
 
 # Master Data Management (MDM)

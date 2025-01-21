@@ -1,6 +1,6 @@
 ---
 sidebar_position: 2
-slug: /skills/database/types/nosql
+slug: /database/types/nosql
 ---
 
 # noSQL базы данных

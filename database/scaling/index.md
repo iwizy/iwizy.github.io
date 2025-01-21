@@ -1,6 +1,6 @@
 ---
 sidebar_position: 6
-slug: /skills/database/scaling
+slug: /database/scaling
 ---
 
 # Масштабирование БД

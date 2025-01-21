@@ -1,6 +1,6 @@
 ---
 sidebar_position: 9
-slug: /skills/database/backup
+slug: /database/backup
 ---
 
 # Бэкапирование данных

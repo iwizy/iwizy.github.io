@@ -1,6 +1,6 @@
 ---
 sidebar_position: 1
-slug: /skills/database/types/nosql/db-doc
+slug: /database/types/nosql/db-doc
 ---
 
 # Документоориентированные базы данных

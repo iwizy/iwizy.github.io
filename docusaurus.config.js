@@ -77,6 +77,12 @@ const config = {
             activeBaseRegex: `/requirements`,
           },
           {
+            to: 'database', 
+            label: 'Базы данных',
+            position: 'left',
+            activeBaseRegex: `/database`,
+          },
+          {
             href: 'https://github.com/iwizy.iwizy.github.io',
             label: 'GitHub',
             position: 'right',
