@@ -119,11 +119,11 @@ slug: /skills
   * [Реляционные](https://iwizy.github.io/database/types/rdb/) 🟢
   * [noSQL](https://iwizy.github.io/database/types/nosql/) 🟢
     * [Документоориентированные](https://iwizy.github.io/database/types/nosql/db-doc/) 🟢
-    * Ключ-значение 🔴
-    * Колоночные 🔴
-    * Временной ряд 🔴
-    * Графовые 🔴
-    * Поисковые 🔴
+    * [Ключ-значение](https://iwizy.github.io/database/types/nosql/db-key-value/) 🟢
+    * [Колоночные](https://iwizy.github.io/database/types/nosql/db-column/) 🟢
+    * [Временной ряд](https://iwizy.github.io/database/types/nosql/db-tsdb/) 🟢
+    * [Графовые](https://iwizy.github.io/database/types/nosql/db-graph/) 🟢
+    * [Поисковые](https://iwizy.github.io/database/types/nosql/db-search/) 🟢
 * [Рапределенные реестры](https://iwizy.github.io/database/distributed-registries/) 🔴
   * Blockchain и смарт-контракты 🔴
 * [Проектирование модели данных](https://iwizy.github.io/database/data-model-design/) 🔴
