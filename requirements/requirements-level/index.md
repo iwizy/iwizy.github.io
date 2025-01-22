@@ -15,7 +15,7 @@ slug: /requirements-level
 * Формулируются на высоком уровне и не содержат технических деталей.  
 * Пример: "Увеличить скорость обработки заказов на 20%".
 
-[Подробнее о бизнес-требованиях](/docs/requirements/requirements-level/business.md)
+[Подробнее о бизнес-требованиях](/requirements/requirements-level/business.md)
 
 ### Пользовательские требования
 
@@ -23,11 +23,11 @@ slug: /requirements-level
 * Могут быть представлены в виде пользовательских сценариев (use cases) или историй (user stories).
 * Пример: "Пользователь должен иметь возможность оформить заказ за 3 шага".
 
-[Подробнее о пользовательских требованиях](/docs/requirements/requirements-level/user.md)
+[Подробнее о пользовательских требованиях](/requirements/requirements-level/user.md)
 
 ### Системные требования
 
 * Указывают на аппаратное и программное обеспечение, необходимое для функционирования системы.  
 * Пример: "Приложение должно работать на Windows, macOS и Linux".
 
-[Подробнее о системных требованиях](/docs/requirements/requirements-level/system.md)
+[Подробнее о системных требованиях](/requirements/requirements-level/system.md)

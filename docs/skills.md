@@ -11,29 +11,29 @@ slug: /skills
 
 ## Работа с требованиями 🟢
 
-* [Определение границ системы](/requirements/system-borders/index.md) 🟢
-  * [Зона ответственности проекта](/requirements/system-borders/responsibility.md) 🟢
-  * [Ограничения](/requirements/system-borders/restrictions.md) 🟢
-* [Уровни требований](/requirements/requirements-level/index.md) 🟢
-  * [Бизнес-требования](/requirements/requirements-level/business.md) 🟢
-  * [Пользовательские требования](/requirements/requirements-level/user.md) 🟢
-  * [Системные требования](/requirements/requirements-level/system.md) 🟢
-* [Виды требований](/requirements/requirements-types/index.md) 🟢
-  * [Функциональные требования](/requirements/requirements-types/functional.md) 🟢
-  * [Нефункциональные требования](/requirements/requirements-types/nonfunctional.md) 🟢
-* [Сбор требований](/requirements/requirements-gathering/index.md) 🟢
-* [Валидация и верификация требований](/requirements/requirements-validation/index.md) 🟢
-* [Подходы к спецификации требований](/requirements/requirements-technics/index.md) 🟢
-* [Критерии качества требований](/requirements/requirements-quality/index.md) 🟢
-* [Структурирование требований](/requirements/requirements-structuring/index.md) 🟢
-* [Декомпозиция требований](/requirements/requirements-decomposition/index.md) 🟢
-* [Управление требованиями](/requirements/requirements-management/index.md) 🟢
-  * [Трассировка требований](/requirements/requirements-management/traceability.md) 🟢
-  * [Поддержка актуальности (maintain requirements)](/requirements/requirements-management/relevance.md) 🟢
-  * [Управление изменениями требований](/requirements/requirements-management/changes.md) 🟢
-  * [Согласование требований](/requirements/requirements-management/coordination.md) 🟢
-  * [Приоритизация требований](/requirements/requirements-management/priority.md) 🟢
-* [Выявление заинтересованных лиц (cтейкхолдеров)](/requirements/requirements-stakeholders/index.md) 🟢
+* [Определение границ системы](https://iwizy.github.io/requirements/system-borders/) 🟢
+  * [Зона ответственности проекта](https://iwizy.github.io/requirements/system-borders/responsibility/) 🟢
+  * [Ограничения](https://iwizy.github.io/requirements/system-borders/restrictions/) 🟢
+* [Уровни требований](https://iwizy.github.io/requirements/requirements-level/) 🟢
+  * [Бизнес-требования](https://iwizy.github.io/requirements/requirements-level/business/) 🟢
+  * [Пользовательские требования](https://iwizy.github.io/requirements/requirements-level/user/) 🟢
+  * [Системные требования](https://iwizy.github.io/requirements/requirements-level/system/) 🟢
+* [Виды требований](https://iwizy.github.io/requirements/requirements-types/) 🟢
+  * [Функциональные требования](https://iwizy.github.io/requirements/requirements-types/functional/) 🟢
+  * [Нефункциональные требования](https://iwizy.github.io/requirements/requirements-types/nonfunctional/) 🟢
+* [Сбор требований](https://iwizy.github.io/requirements/requirements-gathering/) 🟢
+* [Валидация и верификация требований](https://iwizy.github.io/requirements/requirements-validation/) 🟢
+* [Подходы к спецификации требований](https://iwizy.github.io/requirements/requirements-technics/) 🟢
+* [Критерии качества требований](https://iwizy.github.io/requirements/requirements-quality/) 🟢
+* [Структурирование требований](https://iwizy.github.io/requirements/requirements-structuring/) 🟢
+* [Декомпозиция требований](https://iwizy.github.io/requirements/requirements-decomposition/) 🟢
+* [Управление требованиями](https://iwizy.github.io/requirements/requirements-management/) 🟢
+  * [Трассировка требований](https://iwizy.github.io/requirements/requirements-management/traceability/) 🟢
+  * [Поддержка актуальности (maintain requirements)](https://iwizy.github.io/requirements/requirements-management/relevance/) 🟢
+  * [Управление изменениями требований](https://iwizy.github.io/requirements/requirements-management/changes/) 🟢
+  * [Согласование требований](https://iwizy.github.io/requirements/requirements-management/coordination/) 🟢
+  * [Приоритизация требований](https://iwizy.github.io/requirements/requirements-management/priority/) 🟢
+* [Выявление заинтересованных лиц (cтейкхолдеров)](https://iwizy.github.io/requirements/requirements-stakeholders/) 🟢
   
 ## Нотации, диаграммы, моделирование 🔴
 
@@ -115,21 +115,21 @@ slug: /skills
 
 ## Базы данных 🟠
 
-* [Типы](/docs/database/types/index.md) БД 🟠
-  * [Реляционные](/docs/database/types/index.md) 🟢
-  * [noSQL](/docs/database/types/index.md) 🟢
-    * [Документоориентированные](/docs/database/types/db-doc.md) 🟢
+* [Типы](https://iwizy.github.io/database/types/) БД 🟠
+  * [Реляционные](https://iwizy.github.io/database/types/rdb/) 🟢
+  * [noSQL](https://iwizy.github.io/database/types/nosql/) 🟢
+    * [Документоориентированные](https://iwizy.github.io/database/types/nosql/db-doc/) 🟢
     * Ключ-значение 🔴
     * Колоночные 🔴
     * Временной ряд 🔴
     * Графовые 🔴
     * Поисковые 🔴
-* [Рапределенные реестры](/docs/database/distributed-registries/index.md) 🔴
+* [Рапределенные реестры](https://iwizy.github.io/database/distributed-registries/) 🔴
   * Blockchain и смарт-контракты 🔴
-* [Проектирование модели данных](/docs/database/data-model-design/index.md) 🔴
-* [Нормализация и денормализация](/docs/database/normalization/index.md) 🔴
+* [Проектирование модели данных](https://iwizy.github.io/database/data-model-design/) 🔴
+* [Нормализация и денормализация](https://iwizy.github.io/database/normalization/) 🔴
   * Нормальные формы 🔴
-* [SQL](/docs/database/sql/index.md) 🔴
+* [SQL](https://iwizy.github.io/database/sql/) 🔴
   * Селекты 🔴
   * Агрегатные функции 🔴
   * Группировка и сортировка 🔴
@@ -137,12 +137,12 @@ slug: /skills
   * Индексы 🔴
   * Хранимые процедуры и пользовательские функции 🔴
   * Оконные функции 🔴
-* [Масштабирование БД](/docs/database/scaling/index.md) 🔴
+* [Масштабирование БД](https://iwizy.github.io/database/scaling/index.md) 🔴
   * Партицирование 🔴
   * Шардирование 🔴
-* [Master Data management (MDM)](/docs/database/mdm/index.md) 🔴
-* [Реплицирование данных](/docs/database/replication/index.md) 🔴
-* [Бекапирование данных](/docs/database/backup/index.md) 🔴
+* [Master Data management (MDM)](https://iwizy.github.io/database/mdm/index.md) 🔴
+* [Реплицирование данных](https://iwizy.github.io/database/replication/index.md) 🔴
+* [Бекапирование данных](https://iwizy.github.io/database/backup/) 🔴
 
 ## Интеграции 🔴
 
