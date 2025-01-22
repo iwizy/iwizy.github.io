@@ -137,12 +137,12 @@ slug: /skills
   * Индексы 🔴
   * Хранимые процедуры и пользовательские функции 🔴
   * Оконные функции 🔴
-* [Масштабирование БД](https://iwizy.github.io/database/scaling/index.md) 🔴
+* [Масштабирование БД](https://iwizy.github.io/database/scaling/) 🔴
   * Партицирование 🔴
   * Шардирование 🔴
-* [Master Data management (MDM)](https://iwizy.github.io/database/mdm/index.md) 🔴
-* [Реплицирование данных](https://iwizy.github.io/database/replication/index.md) 🔴
-* [Бекапирование данных](https://iwizy.github.io/database/backup/) 🔴
+* [Master Data management (MDM)](https://iwizy.github.io/database/mdm/) 🔴
+* [Реплицирование данных](https://iwizy.github.io/database/replication/) 🔴
+* [Бекапирование данных](https://iwizy.github.io/database/backup/) 🟢
 
 ## Интеграции 🔴
 
