@@ -127,9 +127,9 @@ slug: /skills
 * [Рапределенные реестры](https://iwizy.github.io/database/distributed-registries/) 🟢
   * [Blockchain и смарт-контракты](https://iwizy.github.io/database/distributed-registries/blickchain/) 🟢
 * [Проектирование модели данных](https://iwizy.github.io/database/data-model-design/) 🔴
-* [Нормализация и денормализация](https://iwizy.github.io/database/normalization/) 🔴
-  * Нормальные формы 🔴
-* [SQL](https://iwizy.github.io/database/sql/) 🔴
+* [Нормализация и денормализация](https://iwizy.github.io/database/normalization/) 🟢
+  * [Нормальные формы](https://iwizy.github.io/database/normalization/nf/) 🟢
+* [SQL](https://iwizy.github.io/database/sql/) 🟢
   * Селекты 🔴
   * Агрегатные функции 🔴
   * Группировка и сортировка 🔴
