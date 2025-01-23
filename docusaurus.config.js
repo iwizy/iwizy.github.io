@@ -57,6 +57,15 @@ const config = {
         sidebarPath: require.resolve('./sidebars.js'),
       }, 
     ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'integrations',
+        path: 'integrations',
+        routeBasePath: 'integrations',
+        sidebarPath: require.resolve('./sidebars.js'),
+      }, 
+    ],
   ],
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
@@ -83,7 +92,13 @@ const config = {
             activeBaseRegex: `/database`,
           },
           {
-            href: 'https://github.com/iwizy.iwizy.github.io',
+            to: 'integrations', 
+            label: 'Интеграции',
+            position: 'left',
+            activeBaseRegex: `/integrations`,
+          },
+          {
+            href: 'https://github.com/iwizy/iwizy.github.io',
             label: 'GitHub',
             position: 'right',
           },

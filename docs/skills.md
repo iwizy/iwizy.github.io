@@ -115,7 +115,7 @@ slug: /skills
 
 ## Базы данных 🟠
 
-* [Типы](https://iwizy.github.io/database/types/) БД 🟠
+* [Типы БД](https://iwizy.github.io/database/types/) 🟠
   * [Реляционные](https://iwizy.github.io/database/types/rdb/) 🟢
   * [noSQL](https://iwizy.github.io/database/types/nosql/) 🟢
     * [Документоориентированные](https://iwizy.github.io/database/types/nosql/db-doc/) 🟢
@@ -136,7 +136,7 @@ slug: /skills
   * [Вложенные запросы](https://iwizy.github.io/database/sql/subquery/) 🟢
   * [Индексы](https://iwizy.github.io/database/sql/indexes/) 🟢
   * [Хранимые процедуры и пользовательские функции](https://iwizy.github.io/database/sql/udf/) 🟢
-  * [Оконные функции](#) 🔴
+  * [Оконные функции](https://iwizy.github.io/database/sql/window/) 🔴
 * [Масштабирование БД](https://iwizy.github.io/database/scaling/) 🟢
   * [Партицирование](https://iwizy.github.io/database/scaling/partitioning/) 🟢
   * [Шардирование](https://iwizy.github.io/database/scaling/sharding/) 🟢
@@ -144,7 +144,7 @@ slug: /skills
 * [Реплицирование данных](https://iwizy.github.io/database/replication/) 🟢
 * [Бекапирование данных](https://iwizy.github.io/database/backup/) 🟢
 
-## Интеграции 🔴
+## Интеграции 🟠
 
 * Проектирование API 🔴
   * Сущности, атрибуты, контракты 🔴
