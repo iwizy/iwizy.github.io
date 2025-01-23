@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="generator" content="Docusaurus v3.7.0">
 <title data-rh="true">Нормальные формы | Analyst&#x27;s lounge</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:image" content="https://iwizy.github.io/img/docusaurus-social-card.jpg"><meta data-rh="true" name="twitter:image" content="https://iwizy.github.io/img/docusaurus-social-card.jpg"><meta data-rh="true" property="og:url" content="https://iwizy.github.io/database/normalization/nf"><meta data-rh="true" property="og:locale" content="ru"><meta data-rh="true" name="docusaurus_locale" content="ru"><meta data-rh="true" name="docsearch:language" content="ru"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-database-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-database-current"><meta data-rh="true" property="og:title" content="Нормальные формы | Analyst&#x27;s lounge"><meta data-rh="true" name="description" content="Нормализация базы данных — это процесс структурирования данных в реляционной базе для минимизации избыточности и предотвращения аномалий при вставке, обновлении или удалении данных. Этот процесс делится на несколько этапов, называемых нормальными формами (НФ). Каждая последующая форма накладывает дополнительные ограничения."><meta data-rh="true" property="og:description" content="Нормализация базы данных — это процесс структурирования данных в реляционной базе для минимизации избыточности и предотвращения аномалий при вставке, обновлении или удалении данных. Этот процесс делится на несколько этапов, называемых нормальными формами (НФ). Каждая последующая форма накладывает дополнительные ограничения."><link data-rh="true" rel="icon" href="/img/favicon.ico"><link data-rh="true" rel="canonical" href="https://iwizy.github.io/database/normalization/nf"><link data-rh="true" rel="alternate" href="https://iwizy.github.io/database/normalization/nf" hreflang="ru"><link data-rh="true" rel="alternate" href="https://iwizy.github.io/database/normalization/nf" hreflang="x-default"><link data-rh="true" rel="preconnect" href="https://AQJGALB388-dsn.algolia.net" crossorigin="anonymous"><link rel="search" type="application/opensearchdescription+xml" title="Analyst&#39;s lounge" href="/opensearch.xml"><link rel="stylesheet" href="/assets/css/styles.636c2028.css">
-<script src="/assets/js/runtime~main.e021c62b.js" defer="defer"></script>
+<script src="/assets/js/runtime~main.41a90559.js" defer="defer"></script>
 <script src="/assets/js/main.a91e5aaa.js" defer="defer"></script>
 </head>
 <body class="navigation-with-keyboard">
@@ -17,21 +17,20 @@
 <li><strong>Каждая строка уникальна</strong>: в таблице должен быть идентификатор (первичный ключ).</li>
 <li><strong>Отсутствуют повторяющиеся группы</strong>: значения не должны быть организованы в массивы или многозначные поля.</li>
 </ol>
-<h4 class="anchor anchorWithStickyNavbar_LWe7" id="пример">Пример<a href="#пример" class="hash-link" aria-label="Прямая ссылка на Пример" title="Прямая ссылка на Пример">​</a></h4>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="пример">Пример<a href="#пример" class="hash-link" aria-label="Прямая ссылка на Пример" title="Прямая ссылка на Пример">​</a></h3>
 <p><strong>Таблица до нормализации (ненормализованная):</strong></p>
 <table><thead><tr><th>ID</th><th>Имя</th><th>Телефоны</th></tr></thead><tbody><tr><td>1</td><td>Иван</td><td>123, 456</td></tr><tr><td>2</td><td>Анна</td><td>789</td></tr></tbody></table>
 <p><strong>Проблема:</strong> Столбец &quot;Телефоны&quot; содержит несколько значений в одной ячейке. Это нарушает принцип атомарности.</p>
 <p><strong>Таблица после нормализации (в 1НФ):</strong></p>
 <table><thead><tr><th>ID</th><th>Имя</th><th>Телефон</th></tr></thead><tbody><tr><td>1</td><td>Иван</td><td>123</td></tr><tr><td>1</td><td>Иван</td><td>456</td></tr><tr><td>2</td><td>Анна</td><td>789</td></tr></tbody></table>
 <p>Теперь каждая ячейка таблицы содержит только одно значение.</p>
-<hr>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="вторая-нормальная-форма-2нф"><strong>Вторая нормальная форма (2НФ)</strong><a href="#вторая-нормальная-форма-2нф" class="hash-link" aria-label="Прямая ссылка на вторая-нормальная-форма-2нф" title="Прямая ссылка на вторая-нормальная-форма-2нф">​</a></h3>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="вторая-нормальная-форма-2нф">Вторая нормальная форма (2НФ)<a href="#вторая-нормальная-форма-2нф" class="hash-link" aria-label="Прямая ссылка на Вторая нормальная форма (2НФ)" title="Прямая ссылка на Вторая нормальная форма (2НФ)">​</a></h2>
 <p>Таблица находится во <strong>2НФ</strong>, если:</p>
 <ol>
 <li>Она находится в 1НФ.</li>
 <li>Все неключевые атрибуты (поля, которые не являются частью первичного ключа) зависят от <strong>всего</strong> первичного ключа, а не только от его части (в случае составного ключа).</li>
 </ol>
-<h4 class="anchor anchorWithStickyNavbar_LWe7" id="пример-1">Пример<a href="#пример-1" class="hash-link" aria-label="Прямая ссылка на Пример" title="Прямая ссылка на Пример">​</a></h4>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="пример-1">Пример<a href="#пример-1" class="hash-link" aria-label="Прямая ссылка на Пример" title="Прямая ссылка на Пример">​</a></h3>
 <p><strong>Таблица, не находящаяся во 2НФ:</strong></p>
 <table><thead><tr><th>КурсID</th><th>СтудентID</th><th>КурсНазвание</th><th>СтудентИмя</th></tr></thead><tbody><tr><td>1</td><td>101</td><td>Математика</td><td>Иван</td></tr><tr><td>1</td><td>102</td><td>Математика</td><td>Анна</td></tr><tr><td>2</td><td>101</td><td>Физика</td><td>Иван</td></tr></tbody></table>
 <p><strong>Проблема:</strong></p>
@@ -42,124 +41,85 @@
 </ul>
 <p><strong>Таблица после нормализации (во 2НФ):</strong></p>
 <ol>
-<li>
-<p><strong>Таблица Курсы:</strong>
-| КурсID | КурсНазвание |
-|--------|--------------|
-| 1      | Математика   |
-| 2      | Физика       |</p>
-</li>
-<li>
-<p><strong>Таблица Студенты:</strong>
-| СтудентID | СтудентИмя |
-|-----------|------------|
-| 101       | Иван       |
-| 102       | Анна       |</p>
-</li>
-<li>
-<p><strong>Таблица Связей:</strong>
-| КурсID | СтудентID |
-|--------|-----------|
-| 1      | 101       |
-| 1      | 102       |
-| 2      | 101       |</p>
-</li>
+<li><strong>Таблица Курсы:</strong></li>
 </ol>
+<table><thead><tr><th>КурсID</th><th>КурсНазвание</th></tr></thead><tbody><tr><td>1</td><td>Математика</td></tr><tr><td>2</td><td>Физика</td></tr></tbody></table>
+<ol>
+<li><strong>Таблица Студенты:</strong></li>
+</ol>
+<table><thead><tr><th>СтудентID</th><th>СтудентИмя</th></tr></thead><tbody><tr><td>101</td><td>Иван</td></tr><tr><td>102</td><td>Анна</td></tr></tbody></table>
+<ol>
+<li><strong>Таблица Связей:</strong></li>
+</ol>
+<table><thead><tr><th>КурсID</th><th>СтудентID</th></tr></thead><tbody><tr><td>1</td><td>101</td></tr><tr><td>1</td><td>102</td></tr><tr><td>2</td><td>101</td></tr></tbody></table>
 <p>Теперь каждая таблица содержит данные, полностью зависящие от своего первичного ключа.</p>
-<hr>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="третья-нормальная-форма-3нф"><strong>Третья нормальная форма (3НФ)</strong><a href="#третья-нормальная-форма-3нф" class="hash-link" aria-label="Прямая ссылка на третья-нормальная-форма-3нф" title="Прямая ссылка на третья-нормальная-форма-3нф">​</a></h3>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="третья-нормальная-форма-3нф">Третья нормальная форма (3НФ)<a href="#третья-нормальная-форма-3нф" class="hash-link" aria-label="Прямая ссылка на Третья нормальная форма (3НФ)" title="Прямая ссылка на Третья нормальная форма (3НФ)">​</a></h2>
 <p>Таблица находится в <strong>3НФ</strong>, если:</p>
 <ol>
 <li>Она находится во 2НФ.</li>
 <li>У неключевых полей нет транзитивной зависимости от первичного ключа (неключевое поле зависит только от первичного ключа, а не от другого неключевого поля).</li>
 </ol>
-<h4 class="anchor anchorWithStickyNavbar_LWe7" id="пример-2">Пример<a href="#пример-2" class="hash-link" aria-label="Прямая ссылка на Пример" title="Прямая ссылка на Пример">​</a></h4>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="пример-2">Пример<a href="#пример-2" class="hash-link" aria-label="Прямая ссылка на Пример" title="Прямая ссылка на Пример">​</a></h3>
 <p><strong>Таблица, не находящаяся в 3НФ:</strong></p>
 <table><thead><tr><th>СтудентID</th><th>СтудентИмя</th><th>ГородID</th><th>ГородНазвание</th></tr></thead><tbody><tr><td>101</td><td>Иван</td><td>1</td><td>Москва</td></tr><tr><td>102</td><td>Анна</td><td>2</td><td>Санкт-Петербург</td></tr></tbody></table>
 <p><strong>Проблема:</strong> Поле <code>ГородНазвание</code> зависит не от <code>СтудентID</code>, а от <code>ГородID</code>. Это транзитивная зависимость.</p>
 <p><strong>Таблица после нормализации (в 3НФ):</strong></p>
 <ol>
-<li>
-<p><strong>Таблица Студенты:</strong>
-| СтудентID | СтудентИмя | ГородID |
-|-----------|------------|---------|
-| 101       | Иван       | 1       |
-| 102       | Анна       | 2       |</p>
-</li>
-<li>
-<p><strong>Таблица Города:</strong>
-| ГородID | ГородНазвание    |
-|---------|------------------|
-| 1       | Москва           |
-| 2       | Санкт-Петербург  |</p>
-</li>
+<li><strong>Таблица Студенты:</strong></li>
 </ol>
+<table><thead><tr><th>СтудентID</th><th>СтудентИмя</th><th>ГородID</th></tr></thead><tbody><tr><td>101</td><td>Иван</td><td>1</td></tr><tr><td>102</td><td>Анна</td><td>2</td></tr></tbody></table>
+<ol>
+<li><strong>Таблица Города:</strong></li>
+</ol>
+<table><thead><tr><th>ГородID</th><th>ГородНазвание</th></tr></thead><tbody><tr><td>1</td><td>Москва</td></tr><tr><td>2</td><td>Санкт-Петербург</td></tr></tbody></table>
 <p>Теперь каждая таблица содержит данные, которые зависят только от её собственного ключа.</p>
-<hr>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="бойс-кодд-нормальная-форма-bcnf"><strong>Бойс-Кодд нормальная форма (BCNF)</strong><a href="#бойс-кодд-нормальная-форма-bcnf" class="hash-link" aria-label="Прямая ссылка на бойс-кодд-нормальная-форма-bcnf" title="Прямая ссылка на бойс-кодд-нормальная-форма-bcnf">​</a></h3>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="бойс-кодд-нормальная-форма-bcnf">Бойс-Кодд нормальная форма (BCNF)<a href="#бойс-кодд-нормальная-форма-bcnf" class="hash-link" aria-label="Прямая ссылка на Бойс-Кодд нормальная форма (BCNF)" title="Прямая ссылка на Бойс-Кодд нормальная форма (BCNF)">​</a></h2>
 <p>Таблица находится в <strong>BCNF</strong>, если:</p>
 <ol>
 <li>Она находится в 3НФ.</li>
 <li>Каждый детерминант (поле, от которого зависят другие) является кандидатом на первичный ключ.</li>
 </ol>
-<h4 class="anchor anchorWithStickyNavbar_LWe7" id="пример-3">Пример<a href="#пример-3" class="hash-link" aria-label="Прямая ссылка на Пример" title="Прямая ссылка на Пример">​</a></h4>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="пример-3">Пример<a href="#пример-3" class="hash-link" aria-label="Прямая ссылка на Пример" title="Прямая ссылка на Пример">​</a></h3>
 <p><strong>Таблица, не находящаяся в BCNF:</strong></p>
 <table><thead><tr><th>КурсID</th><th>Преподаватель</th><th>Аудитория</th></tr></thead><tbody><tr><td>1</td><td>Иванов</td><td>101</td></tr><tr><td>2</td><td>Петров</td><td>102</td></tr><tr><td>1</td><td>Иванов</td><td>103</td></tr></tbody></table>
 <p><strong>Проблема:</strong> Поле <code>Преподаватель</code> определяет <code>Аудиторию</code>, но <code>Преподаватель</code> не является ключом.</p>
 <p><strong>Таблица после нормализации (в BCNF):</strong></p>
 <ol>
-<li>
-<p><strong>Таблица Преподаватели и Аудитории:</strong>
-| Преподаватель | Аудитория |
-|---------------|-----------|
-| Иванов        | 101       |
-| Петров        | 102       |</p>
-</li>
-<li>
-<p><strong>Таблица Курсы:</strong>
-| КурсID | Преподаватель |
-|--------|---------------|
-| 1      | Иванов        |
-| 2      | Петров        |</p>
-</li>
+<li><strong>Таблица Преподаватели и Аудитории:</strong></li>
 </ol>
+<table><thead><tr><th>Преподаватель</th><th>Аудитория</th></tr></thead><tbody><tr><td>Иванов</td><td>101</td></tr><tr><td>Петров</td><td>102</td></tr></tbody></table>
+<ol>
+<li><strong>Таблица Курсы:</strong></li>
+</ol>
+<table><thead><tr><th>КурсID</th><th>Преподаватель</th></tr></thead><tbody><tr><td>1</td><td>Иванов</td></tr><tr><td>2</td><td>Петров</td></tr></tbody></table>
 <p>Теперь каждая зависимость соответствует ключевому правилу.</p>
-<hr>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="четвёртая-нормальная-форма-4нф"><strong>Четвёртая нормальная форма (4НФ)</strong><a href="#четвёртая-нормальная-форма-4нф" class="hash-link" aria-label="Прямая ссылка на четвёртая-нормальная-форма-4нф" title="Прямая ссылка на четвёртая-нормальная-форма-4нф">​</a></h3>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="четвёртая-нормальная-форма-4нф">Четвёртая нормальная форма (4НФ)<a href="#четвёртая-нормальная-форма-4нф" class="hash-link" aria-label="Прямая ссылка на Четвёртая нормальная форма (4НФ)" title="Прямая ссылка на Четвёртая нормальная форма (4НФ)">​</a></h2>
 <p>Таблица находится в <strong>4НФ</strong>, если:</p>
 <ol>
 <li>Она находится в BCNF.</li>
 <li>Отсутствуют многозначные зависимости между атрибутами.</li>
 </ol>
-<h4 class="anchor anchorWithStickyNavbar_LWe7" id="пример-4">Пример<a href="#пример-4" class="hash-link" aria-label="Прямая ссылка на Пример" title="Прямая ссылка на Пример">​</a></h4>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="пример-4">Пример<a href="#пример-4" class="hash-link" aria-label="Прямая ссылка на Пример" title="Прямая ссылка на Пример">​</a></h3>
 <p><strong>Таблица, не находящаяся в 4НФ:</strong></p>
 <table><thead><tr><th>СтудентID</th><th>Курс</th><th>Хобби</th></tr></thead><tbody><tr><td>101</td><td>Математика</td><td>Футбол</td></tr><tr><td>101</td><td>Математика</td><td>Шахматы</td></tr></tbody></table>
 <p><strong>Проблема:</strong> У студента одновременно несколько курсов и хобби, что создаёт избыточность.</p>
 <p><strong>Таблица после нормализации (в 4НФ):</strong></p>
 <ol>
-<li>
-<p><strong>Таблица СтудентыКурсы:</strong>
-| СтудентID | Курс       |
-|-----------|------------|
-| 101       | Математика |</p>
-</li>
-<li>
-<p><strong>Таблица СтудентыХобби:</strong>
-| СтудентID | Хобби      |
-|-----------|------------|
-| 101       | Футбол     |
-| 101       | Шахматы    |</p>
-</li>
+<li><strong>Таблица СтудентыКурсы:</strong></li>
 </ol>
+<table><thead><tr><th>СтудентID</th><th>Курс</th></tr></thead><tbody><tr><td>101</td><td>Математика</td></tr></tbody></table>
+<ol>
+<li><strong>Таблица СтудентыХобби:</strong></li>
+</ol>
+<table><thead><tr><th>СтудентID</th><th>Хобби</th></tr></thead><tbody><tr><td>101</td><td>Футбол</td></tr><tr><td>101</td><td>Шахматы</td></tr></tbody></table>
 <p>Теперь каждая зависимость разделена.</p>
-<hr>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="пятая-нормальная-форма-5нф"><strong>Пятая нормальная форма (5НФ)</strong><a href="#пятая-нормальная-форма-5нф" class="hash-link" aria-label="Прямая ссылка на пятая-нормальная-форма-5нф" title="Прямая ссылка на пятая-нормальная-форма-5нф">​</a></h3>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="пятая-нормальная-форма-5нф">Пятая нормальная форма (5НФ)<a href="#пятая-нормальная-форма-5нф" class="hash-link" aria-label="Прямая ссылка на Пятая нормальная форма (5НФ)" title="Прямая ссылка на Пятая нормальная форма (5НФ)">​</a></h2>
 <p>Таблица находится в <strong>5НФ</strong>, если:</p>
 <ol>
 <li>Она находится в 4НФ.</li>
 <li>Данные нельзя разделить на меньшие таблицы без потери информации. Все зависимости представляются только через соединение.</li>
 </ol>
-<h4 class="anchor anchorWithStickyNavbar_LWe7" id="пример-5">Пример<a href="#пример-5" class="hash-link" aria-label="Прямая ссылка на Пример" title="Прямая ссылка на Пример">​</a></h4>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="пример-5">Пример<a href="#пример-5" class="hash-link" aria-label="Прямая ссылка на Пример" title="Прямая ссылка на Пример">​</a></h3>
 <p>Представьте таблицу, содержащую тройное отношение:</p>
 <table><thead><tr><th>ПроектID</th><th>РаботникID</th><th>НавыкID</th></tr></thead><tbody><tr><td>1</td><td>101</td><td>Java</td></tr><tr><td>1</td><td>102</td><td>Python</td></tr></tbody></table>
 <p>Эта таблица должна быть разделена на три таблицы (связи &quot;многие ко многим&quot;) без потери данных:</p>
@@ -168,8 +128,7 @@
 <li><strong>Таблица Работники и Навыки.</strong></li>
 <li><strong>Таблица Проекты и Навыки.</strong></li>
 </ol>
-<hr>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="итог">Итог<a href="#итог" class="hash-link" aria-label="Прямая ссылка на Итог" title="Прямая ссылка на Итог">​</a></h3>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="итог">Итог<a href="#итог" class="hash-link" aria-label="Прямая ссылка на Итог" title="Прямая ссылка на Итог">​</a></h2>
 <ul>
 <li><strong>1НФ</strong>: Устраняет неатомарные значения.</li>
 <li><strong>2НФ</strong>: Устраняет частичные зависимости.</li>
@@ -178,6 +137,6 @@
 <li><strong>4НФ</strong>: Устраняет многозначные зависимости.</li>
 <li><strong>5НФ</strong>: Устраняет проблемы проекции и соединения.</li>
 </ul>
-<p>Нормализация позволяет минимизировать избыточность и повысить целостность данных, однако чрезмерная нормализация может снижать производительность при выполнении запросов.</p></div></article><nav class="pagination-nav docusaurus-mt-lg" aria-label="Страница документа"><a class="pagination-nav__link pagination-nav__link--prev" href="/database/normalization"><div class="pagination-nav__sublabel">Предыдущая страница</div><div class="pagination-nav__label">Нормализация и денормализация</div></a><a class="pagination-nav__link pagination-nav__link--next" href="/database/database/sql"><div class="pagination-nav__sublabel">Следующая страница</div><div class="pagination-nav__label">SQL</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#первая-нормальная-форма-1нф" class="table-of-contents__link toc-highlight">Первая нормальная форма (1НФ)</a><ul><li><a href="#вторая-нормальная-форма-2нф" class="table-of-contents__link toc-highlight"><strong>Вторая нормальная форма (2НФ)</strong></a></li><li><a href="#третья-нормальная-форма-3нф" class="table-of-contents__link toc-highlight"><strong>Третья нормальная форма (3НФ)</strong></a></li><li><a href="#бойс-кодд-нормальная-форма-bcnf" class="table-of-contents__link toc-highlight"><strong>Бойс-Кодд нормальная форма (BCNF)</strong></a></li><li><a href="#четвёртая-нормальная-форма-4нф" class="table-of-contents__link toc-highlight"><strong>Четвёртая нормальная форма (4НФ)</strong></a></li><li><a href="#пятая-нормальная-форма-5нф" class="table-of-contents__link toc-highlight"><strong>Пятая нормальная форма (5НФ)</strong></a></li><li><a href="#итог" class="table-of-contents__link toc-highlight">Итог</a></li></ul></li></ul></div></div></div></div></main></div></div></div><footer class="footer footer--dark"><div class="container container-fluid"><div class="footer__bottom text--center"><div class="footer__copyright">Copyright © 2025 Analyst's lounge</div></div></div></footer></div>
+<p>Нормализация позволяет минимизировать избыточность и повысить целостность данных, однако чрезмерная нормализация может снижать производительность при выполнении запросов.</p></div></article><nav class="pagination-nav docusaurus-mt-lg" aria-label="Страница документа"><a class="pagination-nav__link pagination-nav__link--prev" href="/database/normalization"><div class="pagination-nav__sublabel">Предыдущая страница</div><div class="pagination-nav__label">Нормализация и денормализация</div></a><a class="pagination-nav__link pagination-nav__link--next" href="/database/database/sql"><div class="pagination-nav__sublabel">Следующая страница</div><div class="pagination-nav__label">SQL</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#первая-нормальная-форма-1нф" class="table-of-contents__link toc-highlight">Первая нормальная форма (1НФ)</a><ul><li><a href="#пример" class="table-of-contents__link toc-highlight">Пример</a></li></ul></li><li><a href="#вторая-нормальная-форма-2нф" class="table-of-contents__link toc-highlight">Вторая нормальная форма (2НФ)</a><ul><li><a href="#пример-1" class="table-of-contents__link toc-highlight">Пример</a></li></ul></li><li><a href="#третья-нормальная-форма-3нф" class="table-of-contents__link toc-highlight">Третья нормальная форма (3НФ)</a><ul><li><a href="#пример-2" class="table-of-contents__link toc-highlight">Пример</a></li></ul></li><li><a href="#бойс-кодд-нормальная-форма-bcnf" class="table-of-contents__link toc-highlight">Бойс-Кодд нормальная форма (BCNF)</a><ul><li><a href="#пример-3" class="table-of-contents__link toc-highlight">Пример</a></li></ul></li><li><a href="#четвёртая-нормальная-форма-4нф" class="table-of-contents__link toc-highlight">Четвёртая нормальная форма (4НФ)</a><ul><li><a href="#пример-4" class="table-of-contents__link toc-highlight">Пример</a></li></ul></li><li><a href="#пятая-нормальная-форма-5нф" class="table-of-contents__link toc-highlight">Пятая нормальная форма (5НФ)</a><ul><li><a href="#пример-5" class="table-of-contents__link toc-highlight">Пример</a></li></ul></li><li><a href="#итог" class="table-of-contents__link toc-highlight">Итог</a></li></ul></div></div></div></div></main></div></div></div><footer class="footer footer--dark"><div class="container container-fluid"><div class="footer__bottom text--center"><div class="footer__copyright">Copyright © 2025 Analyst's lounge</div></div></div></footer></div>
 </body>
 </html>
