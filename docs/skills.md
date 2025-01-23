@@ -131,7 +131,7 @@ slug: /skills
   * [Нормальные формы](https://iwizy.github.io/database/normalization/nf/) 🟢
 * [SQL](https://iwizy.github.io/database/sql/) 🟢
   * [Селекты](https://iwizy.github.io/database/sql/select/) 🟢
-  * [Агрегатные функции](#) 🔴
+  * [Агрегатные функции](https://iwizy.github.io/database/sql/agrigate/) 🟢
   * [Группировка и сортировка](#) 🔴
   * [Вложенные запросы](#) 🔴
   * [Индексы](#) 🔴
