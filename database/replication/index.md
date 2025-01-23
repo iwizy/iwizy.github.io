@@ -1,6 +1,6 @@
 ---
 sidebar_position: 8
-slug: /database/replication
+slug: /replication
 ---
 
 # Реплицирование данных
