@@ -140,7 +140,7 @@ slug: /skills
 * [Масштабирование БД](https://iwizy.github.io/database/scaling/) 🔴
   * Партицирование 🔴
   * Шардирование 🔴
-* [Master Data management (MDM)](https://iwizy.github.io/database/mdm/) 🔴
+* [Master Data management (MDM)](https://iwizy.github.io/database/mdm/) 🟢
 * [Реплицирование данных](https://iwizy.github.io/database/replication/) 🟢
 * [Бекапирование данных](https://iwizy.github.io/database/backup/) 🟢
 
