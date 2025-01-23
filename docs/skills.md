@@ -35,6 +35,67 @@ slug: /skills
   * [Приоритизация требований](https://iwizy.github.io/requirements/requirements-management/priority/) 🟢
 * [Выявление заинтересованных лиц (cтейкхолдеров)](https://iwizy.github.io/requirements/requirements-stakeholders/) 🟢
   
+## Базы данных 🟠
+
+* [Типы БД](https://iwizy.github.io/database/types/) 🟠
+  * [Реляционные](https://iwizy.github.io/database/types/rdb/) 🟢
+  * [noSQL](https://iwizy.github.io/database/types/nosql/) 🟢
+    * [Документоориентированные](https://iwizy.github.io/database/types/nosql/db-doc/) 🟢
+    * [Ключ-значение](https://iwizy.github.io/database/types/nosql/db-key-value/) 🟢
+    * [Колоночные](https://iwizy.github.io/database/types/nosql/db-column/) 🟢
+    * [Временной ряд](https://iwizy.github.io/database/types/nosql/db-tsdb/) 🟢
+    * [Графовые](https://iwizy.github.io/database/types/nosql/db-graph/) 🟢
+    * [Поисковые](https://iwizy.github.io/database/types/nosql/db-search/) 🟢
+* [Рапределенные реестры](https://iwizy.github.io/database/distributed-registries/) 🟢
+  * [Blockchain и смарт-контракты](https://iwizy.github.io/database/distributed-registries/blickchain/) 🟢
+* [Проектирование модели данных](https://iwizy.github.io/database/data-model-design/) 🔴
+* [Нормализация и денормализация](https://iwizy.github.io/database/normalization/) 🟢
+  * [Нормальные формы](https://iwizy.github.io/database/normalization/nf/) 🟢
+* [SQL](https://iwizy.github.io/database/sql/) 🟢
+  * [Селекты](https://iwizy.github.io/database/sql/select/) 🟢
+  * [Агрегатные функции](https://iwizy.github.io/database/sql/agrigate/) 🟢
+  * [Группировка и сортировка](https://iwizy.github.io/database/sql/group/) 🟢
+  * [Вложенные запросы](https://iwizy.github.io/database/sql/subquery/) 🟢
+  * [Индексы](https://iwizy.github.io/database/sql/indexes/) 🟢
+  * [Хранимые процедуры и пользовательские функции](https://iwizy.github.io/database/sql/udf/) 🟢
+  * [Оконные функции](https://iwizy.github.io/database/sql/window/) 🔴
+* [Масштабирование БД](https://iwizy.github.io/database/scaling/) 🟢
+  * [Партицирование](https://iwizy.github.io/database/scaling/partitioning/) 🟢
+  * [Шардирование](https://iwizy.github.io/database/scaling/sharding/) 🟢
+* [Master Data management (MDM)](https://iwizy.github.io/database/mdm/) 🟢
+* [Реплицирование данных](https://iwizy.github.io/database/replication/) 🟢
+* [Бекапирование данных](https://iwizy.github.io/database/backup/) 🟢
+
+## Интеграции 🟠
+
+* Проектирование API 🔴
+  * Сущности, атрибуты, контракты 🔴
+  * Документирование API 🔴
+  * Форматы сериализации 🔴
+    * JSON 🔴
+    * XML/XSD 🔴
+    * YAML 🔴
+  * Обратная совместимость 🔴
+  * Идемпотентность 🔴
+* Способы интеграции 🔴
+  * API 🔴
+    * REST/HTTP(S) 🔴
+    * SOAP 🔴
+    * GraphQL 🔴
+    * gRPC 🔴
+    * JSON-RPC 🔴
+    * WebSockets 🔴
+  * Брокеры сообщений 🔴
+    * Kafka 🔴
+    * RabbitMQ 🔴
+  * Общая БД 🔴
+  * Обмен файлами 🔴
+* Сетевое взаимодействие 🔴
+  * Модель OSI 🔴
+  * TCP/IP 🔴
+  * UDP 🔴
+  * Сокеты 🔴
+
 ## Нотации, диаграммы, моделирование 🔴
 
 * UML 🔴
@@ -112,67 +173,6 @@ slug: /skills
   * SSL/TLS 🔴
   * Электронная подпись 🔴
   * Основные уязвимости веб-сервисов и приложений 🔴
-
-## Базы данных 🟠
-
-* [Типы БД](https://iwizy.github.io/database/types/) 🟠
-  * [Реляционные](https://iwizy.github.io/database/types/rdb/) 🟢
-  * [noSQL](https://iwizy.github.io/database/types/nosql/) 🟢
-    * [Документоориентированные](https://iwizy.github.io/database/types/nosql/db-doc/) 🟢
-    * [Ключ-значение](https://iwizy.github.io/database/types/nosql/db-key-value/) 🟢
-    * [Колоночные](https://iwizy.github.io/database/types/nosql/db-column/) 🟢
-    * [Временной ряд](https://iwizy.github.io/database/types/nosql/db-tsdb/) 🟢
-    * [Графовые](https://iwizy.github.io/database/types/nosql/db-graph/) 🟢
-    * [Поисковые](https://iwizy.github.io/database/types/nosql/db-search/) 🟢
-* [Рапределенные реестры](https://iwizy.github.io/database/distributed-registries/) 🟢
-  * [Blockchain и смарт-контракты](https://iwizy.github.io/database/distributed-registries/blickchain/) 🟢
-* [Проектирование модели данных](https://iwizy.github.io/database/data-model-design/) 🔴
-* [Нормализация и денормализация](https://iwizy.github.io/database/normalization/) 🟢
-  * [Нормальные формы](https://iwizy.github.io/database/normalization/nf/) 🟢
-* [SQL](https://iwizy.github.io/database/sql/) 🟢
-  * [Селекты](https://iwizy.github.io/database/sql/select/) 🟢
-  * [Агрегатные функции](https://iwizy.github.io/database/sql/agrigate/) 🟢
-  * [Группировка и сортировка](https://iwizy.github.io/database/sql/group/) 🟢
-  * [Вложенные запросы](https://iwizy.github.io/database/sql/subquery/) 🟢
-  * [Индексы](https://iwizy.github.io/database/sql/indexes/) 🟢
-  * [Хранимые процедуры и пользовательские функции](https://iwizy.github.io/database/sql/udf/) 🟢
-  * [Оконные функции](https://iwizy.github.io/database/sql/window/) 🔴
-* [Масштабирование БД](https://iwizy.github.io/database/scaling/) 🟢
-  * [Партицирование](https://iwizy.github.io/database/scaling/partitioning/) 🟢
-  * [Шардирование](https://iwizy.github.io/database/scaling/sharding/) 🟢
-* [Master Data management (MDM)](https://iwizy.github.io/database/mdm/) 🟢
-* [Реплицирование данных](https://iwizy.github.io/database/replication/) 🟢
-* [Бекапирование данных](https://iwizy.github.io/database/backup/) 🟢
-
-## Интеграции 🟠
-
-* Проектирование API 🔴
-  * Сущности, атрибуты, контракты 🔴
-  * Документирование API 🔴
-  * Форматы сериализации 🔴
-    * JSON 🔴
-    * XML/XSD 🔴
-    * YAML 🔴
-  * Обратная совместимость 🔴
-  * Идемпотентность 🔴
-* Способы интеграции 🔴
-  * API 🔴
-    * REST/HTTP(S) 🔴
-    * SOAP 🔴
-    * GraphQL 🔴
-    * gRPC 🔴
-    * JSON-RPC 🔴
-    * WebSockets 🔴
-  * Брокеры сообщений 🔴
-    * Kafka 🔴
-    * RabbitMQ 🔴
-  * Общая БД 🔴
-  * Обмен файлами 🔴
-* Сетевое взаимодействие 🔴
-  * Модель OSI 🔴
-  * TCP/IP 🔴
-  * UDP 🔴
-  * Сокеты 🔴
 
 ## Процесс разработки 🔴
 
