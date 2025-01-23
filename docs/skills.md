@@ -134,8 +134,8 @@ slug: /skills
   * [Агрегатные функции](https://iwizy.github.io/database/sql/agrigate/) 🟢
   * [Группировка и сортировка](https://iwizy.github.io/database/sql/group/) 🟢
   * [Вложенные запросы](https://iwizy.github.io/database/sql/subquery/) 🟢
-  * [Индексы](#) 🔴
-  * [Хранимые процедуры и пользовательские функции](#) 🔴
+  * [Индексы](https://iwizy.github.io/database/sql/indexes/) 🟢
+  * [Хранимые процедуры и пользовательские функции](https://iwizy.github.io/database/sql/udf/) 🟢
   * [Оконные функции](#) 🔴
 * [Масштабирование БД](https://iwizy.github.io/database/scaling/) 🟢
   * [Партицирование](https://iwizy.github.io/database/scaling/partitioning/) 🟢
