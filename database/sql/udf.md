@@ -1,6 +1,6 @@
 ---
 sidebar_position: 6
-slug: /sql/indexes
+slug: /sql/udf
 ---
 
 # Хранимые процедуры и пользовательские функции
