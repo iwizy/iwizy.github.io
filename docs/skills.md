@@ -48,7 +48,7 @@ slug: /skills
     * [Поисковые](https://iwizy.github.io/database/types/nosql/db-search/) 🟢
 * [Рапределенные реестры](https://iwizy.github.io/database/distributed-registries/) 🟢
   * [Blockchain и смарт-контракты](https://iwizy.github.io/database/distributed-registries/blickchain/) 🟢
-* [Проектирование модели данных](https://iwizy.github.io/database/data-model-design/) 🔴
+* [Проектирование модели данных](https://iwizy.github.io/database/data-model-design/) 🟢
 * [Нормализация и денормализация](https://iwizy.github.io/database/normalization/) 🟢
   * [Нормальные формы](https://iwizy.github.io/database/normalization/nf/) 🟢
 * [SQL](https://iwizy.github.io/database/sql/) 🟢
