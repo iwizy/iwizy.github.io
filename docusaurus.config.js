@@ -219,23 +219,30 @@ const config = {
             activeBaseRegex: `/tools`,
           },
           {
-            to: 'general-competencies', 
-            label: 'Общие компетенции',
+            label: 'Другое',
             position: 'left',
-            activeBaseRegex: `/general-competencies`,
-          },
-          {
-            to: 'related-skills', 
-            label: 'Смежные навыки',
-            position: 'left',
-            activeBaseRegex: `/related-skills`,
-          },
-          {
-            to: 'soft-skills', 
-            label: 'Софт скилы',
-            position: 'left',
-            activeBaseRegex: `/soft-skills`,
-          },
+            type: 'dropdown',
+            items: [
+              {
+                to: 'general-competencies', 
+                label: 'Общие компетенции',
+                docId: 'general-competencies',
+                activeBaseRegex: `/general-competencies`,
+              },
+              {
+                to: 'related-skills', 
+                label: 'Смежные навыки',
+                docId: 'related-skills',
+                activeBaseRegex: `/related-skills`,
+              },
+              {
+                to: 'soft-skills', 
+                label: 'Софт скилы',
+                docId: 'soft-skills',
+                activeBaseRegex: `/soft-skills`,
+              },
+            ],
+          },          
           {
             href: 'https://github.com/iwizy/iwizy.github.io',
             label: 'GitHub',
