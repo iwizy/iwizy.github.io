@@ -68,14 +68,14 @@ slug: /skills
 
 ## Интеграции 🟠
 
-* Проектирование API 🔴
-  * Сущности, атрибуты, контракты 🔴
-  * Документирование API 🔴
-  * Форматы сериализации 🔴
-    * JSON 🔴
-    * XML/XSD 🔴
-    * YAML 🔴
-  * Обратная совместимость 🔴
+* Проектирование API 🟢
+  * [Сущности, атрибуты, контракты](https://iwizy.github.io/integrations/api-design/) 🟢
+  * [Документирование API](https://iwizy.github.io/integrations/api-design/api-doc/) 🟢
+  * [Форматы сериализации](https://iwizy.github.io/integrations/api-design/formats/) 🟢
+    * [JSON](https://iwizy.github.io/integrations/api-design/formats/json) 🟢
+    * [XML/XSD](https://iwizy.github.io/integrations/api-design/formats/xml) 🟢
+    * [YAML](https://iwizy.github.io/integrations/api-design/formats/yaml) 🟢
+  * [Обратная совместимость](https://iwizy.github.io/integrations/api-design/back-compatibility/) 🟢
   * [Идемпотентность](https://iwizy.github.io/integrations/api-design/idempotency/) 🟢
 * Способы интеграции 🔴
   * API 🔴
