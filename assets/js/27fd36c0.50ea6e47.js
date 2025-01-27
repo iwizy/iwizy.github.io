@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkiwizards_lounge=self.webpackChunkiwizards_lounge||[]).push([[3830],{8573:s=>{s.exports=JSON.parse('{"name":"docusaurus-plugin-content-docs","id":"algorythm"}')}}]);

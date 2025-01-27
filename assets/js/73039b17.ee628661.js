@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkiwizards_lounge=self.webpackChunkiwizards_lounge||[]).push([[6719],{4263:e=>{e.exports=JSON.parse('{"name":"docusaurus-plugin-content-docs","id":"architecture"}')}}]);
