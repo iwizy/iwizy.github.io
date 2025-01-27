@@ -76,7 +76,7 @@ slug: /skills
     * XML/XSD 🔴
     * YAML 🔴
   * Обратная совместимость 🔴
-  * Идемпотентность 🔴
+  * [Идемпотентность](https://iwizy.github.io/integrations/api-design/idempotency/) 🟢
 * Способы интеграции 🔴
   * API 🔴
     * REST/HTTP(S) 🔴
