@@ -30,7 +30,7 @@ slug: /types/nosql/db-doc
      - Простая интеграция с языками программирования.
    - Пример документа:
 
-     ```json
+     ```json showLineNumbers
      {
        "user_id": 123,
        "name": "John Doe",
@@ -55,7 +55,7 @@ slug: /types/nosql/db-doc
    - Особенность: Поддержка протокола HTTP/REST для взаимодействия.
    - Пример документа:
 
-     ```json
+     ```json showLineNumbers
      {
        "_id": "001",
        "type": "blog_post",
@@ -72,7 +72,7 @@ slug: /types/nosql/db-doc
    - Особенность: Реализует концепцию "реактивных данных", позволяя получать обновления в реальном времени.
    - Пример документа:
 
-     ```json
+     ```json showLineNumbers
      {
        "id": "u456",
        "name": "Alice",
@@ -86,7 +86,7 @@ slug: /types/nosql/db-doc
    - Особенность: Полностью управляемая база данных с высокой доступностью, интегрированная с AWS.
    - Пример документа:
 
-     ```json
+     ```json showLineNumbers
      {
        "productId": "P001",
        "name": "Smartphone",

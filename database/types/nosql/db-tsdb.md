@@ -44,7 +44,7 @@ slug: /types/nosql/db-tsdb
 
    **Пример записи:**
 
-   ```
+   ``` 
    temperature,location=room1 value=22.5 1672502400
    ```
 
@@ -57,7 +57,7 @@ slug: /types/nosql/db-tsdb
 
    **Пример запроса:**
 
-   ```sql
+   ```sql showLineNumbers
    SELECT time_bucket('1 hour', timestamp) AS bucket,
           AVG(value) AS avg_value
    FROM temperature

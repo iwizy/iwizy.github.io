@@ -83,7 +83,7 @@ slug: /types/nosql/db-key-value
 
 ## Пример на Redis
 
-```bash
+```bash showLineNumbers
 # Установка ключа
 SET user:1001 "John Doe"
 

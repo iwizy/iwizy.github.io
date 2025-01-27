@@ -94,7 +94,7 @@ slug: /types/nosql/db-сolumn
 
 Если запрос:  
 
-```sql
+```sql showLineNumbers
 SELECT SUM(Price) FROM Sales WHERE Region = 'North';
 ```
 
