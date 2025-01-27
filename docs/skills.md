@@ -46,8 +46,8 @@ slug: /skills
     * [Временной ряд](https://iwizy.github.io/database/types/nosql/db-tsdb/) 🟢
     * [Графовые](https://iwizy.github.io/database/types/nosql/db-graph/) 🟢
     * [Поисковые](https://iwizy.github.io/database/types/nosql/db-search/) 🟢
-* [Рапределенные реестры](https://iwizy.github.io/database/distributed-registries/) 🟢
-  * [Blockchain и смарт-контракты](https://iwizy.github.io/database/distributed-registries/blickchain/) 🟢
+* [Рапределенные реестры](https://iwizy.github.io/database/distributed-ledgers/) 🟢
+  * [Blockchain и смарт-контракты](https://iwizy.github.io/database/distributed-ledgers/blockchain/) 🟢
 * [Проектирование модели данных](https://iwizy.github.io/database/data-model-design/) 🟢
 * [Нормализация и денормализация](https://iwizy.github.io/database/normalization/) 🟢
   * [Нормальные формы](https://iwizy.github.io/database/normalization/nf/) 🟢
