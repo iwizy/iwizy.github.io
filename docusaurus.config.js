@@ -70,6 +70,87 @@ const config = {
         sidebarPath: require.resolve('./sidebars.js'),
       }, 
     ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'notations',
+        path: 'notations',
+        routeBasePath: 'notations',
+        sidebarPath: require.resolve('./sidebars.js'),
+      }, 
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'algorythm',
+        path: 'algorythm',
+        routeBasePath: 'algorythm',
+        sidebarPath: require.resolve('./sidebars.js'),
+      }, 
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'architecture',
+        path: 'architecture',
+        routeBasePath: 'architecture',
+        sidebarPath: require.resolve('./sidebars.js'),
+      }, 
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'development',
+        path: 'development',
+        routeBasePath: 'development',
+        sidebarPath: require.resolve('./sidebars.js'),
+      }, 
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'metodologies',
+        path: 'metodologies',
+        routeBasePath: 'metodologies',
+        sidebarPath: require.resolve('./sidebars.js'),
+      }, 
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'tools',
+        path: 'tools',
+        routeBasePath: 'tools',
+        sidebarPath: require.resolve('./sidebars.js'),
+      }, 
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'general-competencies',
+        path: 'general-competencies',
+        routeBasePath: 'general-competencies',
+        sidebarPath: require.resolve('./sidebars.js'),
+      }, 
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'related-skills',
+        path: 'related-skills',
+        routeBasePath: 'related-skills',
+        sidebarPath: require.resolve('./sidebars.js'),
+      }, 
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'soft-skills',
+        path: 'soft-skills',
+        routeBasePath: 'soft-skills',
+        sidebarPath: require.resolve('./sidebars.js'),
+      }, 
+    ],
   ],
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
@@ -100,6 +181,60 @@ const config = {
             label: 'Интеграции',
             position: 'left',
             activeBaseRegex: `/integrations`,
+          },
+          {
+            to: 'notations', 
+            label: 'Нотации',
+            position: 'left',
+            activeBaseRegex: `/notations`,
+          },
+          {
+            to: 'algorythm', 
+            label: 'Алгоритмы',
+            position: 'left',
+            activeBaseRegex: `/algorythm`,
+          },
+          {
+            to: 'architecture', 
+            label: 'Архитектура',
+            position: 'left',
+            activeBaseRegex: `/architecture`,
+          },
+          {
+            to: 'development', 
+            label: 'Разработка',
+            position: 'left',
+            activeBaseRegex: `/development`,
+          },
+          {
+            to: 'metodologies', 
+            label: 'Методологии',
+            position: 'left',
+            activeBaseRegex: `/metodologies`,
+          },
+          {
+            to: 'tools', 
+            label: 'Инструменты',
+            position: 'left',
+            activeBaseRegex: `/tools`,
+          },
+          {
+            to: 'general-competencies', 
+            label: 'Общие компетенции',
+            position: 'left',
+            activeBaseRegex: `/general-competencies`,
+          },
+          {
+            to: 'related-skills', 
+            label: 'Смежные навыки',
+            position: 'left',
+            activeBaseRegex: `/related-skills`,
+          },
+          {
+            to: 'soft-skills', 
+            label: 'Софт скилы',
+            position: 'left',
+            activeBaseRegex: `/soft-skills`,
           },
           {
             href: 'https://github.com/iwizy/iwizy.github.io',

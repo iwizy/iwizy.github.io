@@ -39,7 +39,7 @@ pagination_next: null
     * [YAML](/integrations/api-design/formats/yaml.md)
   * [Обратная совместимость](/integrations/api-design/back-compatibility/index.md)
   * [Идемпотентность](/integrations/api-design/idempotency/index.md)
-* Способы интеграции 🔴
+* [Способы интеграции](/integrations/types/index.md) 🔴
   * API 🔴
     * REST/HTTP(S) 🔴
     * SOAP 🔴
@@ -52,8 +52,8 @@ pagination_next: null
     * RabbitMQ 🔴
   * Общая БД 🔴
   * Обмен файлами 🔴
-* Сетевое взаимодействие 🔴
-  * Модель OSI 🔴
-  * TCP/IP 🔴
-  * UDP 🔴
-  * Сокеты 🔴
+* [Сетевое взаимодействие](/integrations/network/index.md) 🔴
+  * [Модель OSI](/integrations/network/osi.md) 🔴
+  * [TCP/IP](/integrations/network/tcp-ip.md) 🔴
+  * [UDP](/integrations/network/udp.md) 🔴
+  * [Сокеты](/integrations/network/sockets.md) 🔴
