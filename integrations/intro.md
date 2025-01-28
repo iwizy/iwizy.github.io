@@ -50,10 +50,10 @@ pagination_next: null
   * Брокеры сообщений 🔴
     * Kafka 🔴
     * RabbitMQ 🔴
-  * Общая БД 🔴
-  * Обмен файлами 🔴
-* [Сетевое взаимодействие](/integrations/network/index.md) 🔴
-  * [Модель OSI](/integrations/network/osi.md) 🔴
-  * [TCP/IP](/integrations/network/tcp-ip.md) 🔴
-  * [UDP](/integrations/network/udp.md) 🔴
-  * [Сокеты](/integrations/network/sockets.md) 🔴
+  * [Общая БД](/integrations/types/common-db/index.md)
+  * [Обмен файлами](/integrations/types/files/index.md)
+* [Сетевое взаимодействие](/integrations/network/index.md)
+  * [Модель OSI](/integrations/network/osi.md)
+  * [TCP/IP](/integrations/network/tcp-ip.md)
+  * [UDP](/integrations/network/udp.md)
+  * [Сокеты](/integrations/network/sockets.md)
