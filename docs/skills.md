@@ -72,9 +72,9 @@ slug: /skills
   * [Сущности, атрибуты, контракты](https://iwizy.github.io/integrations/api-design/) 🟢
   * [Документирование API](https://iwizy.github.io/integrations/api-design/api-doc/) 🟢
   * [Форматы сериализации](https://iwizy.github.io/integrations/api-design/formats/) 🟢
-    * [JSON](https://iwizy.github.io/integrations/api-design/formats/json) 🟢
-    * [XML/XSD](https://iwizy.github.io/integrations/api-design/formats/xml) 🟢
-    * [YAML](https://iwizy.github.io/integrations/api-design/formats/yaml) 🟢
+    * [JSON](https://iwizy.github.io/integrations/api-design/formats/json/) 🟢
+    * [XML/XSD](https://iwizy.github.io/integrations/api-design/formats/xml/) 🟢
+    * [YAML](https://iwizy.github.io/integrations/api-design/formats/yaml/) 🟢
   * [Обратная совместимость](https://iwizy.github.io/integrations/api-design/back-compatibility/) 🟢
   * [Идемпотентность](https://iwizy.github.io/integrations/api-design/idempotency/) 🟢
 * Способы интеграции 🔴
@@ -85,16 +85,16 @@ slug: /skills
     * gRPC 🔴
     * JSON-RPC 🔴
     * WebSockets 🔴
-  * Брокеры сообщений 🔴
-    * Kafka 🔴
-    * RabbitMQ 🔴
-  * Общая БД 🔴
-  * Обмен файлами 🔴
-* Сетевое взаимодействие 🔴
-  * Модель OSI 🔴
-  * TCP/IP 🔴
-  * UDP 🔴
-  * Сокеты 🔴
+  * [Брокеры сообщений](https://iwizy.github.io/integrations/types/brokers/) 🟢
+    * [Kafka](https://iwizy.github.io/integrations/types/brokers/kafka/) 🟢
+    * [RabbitMQ](https://iwizy.github.io/integrations/types/brokers/rabbit/) 🟢
+  * [Общая БД](https://iwizy.github.io/integrations/types/common-db/) 🟢
+  * [Обмен файлами](https://iwizy.github.io/integrations/types/files/) 🟢
+* [Сетевое взаимодействие](https://iwizy.github.io/integrations/network/) 🟢
+  * [Модель OSI](https://iwizy.github.io/integrations/network/osi) 🟢
+  * [TCP/IP](https://iwizy.github.io/integrations/network/tcp-ip) 🟢
+  * [UDP](https://iwizy.github.io/integrations/network/udp) 🟢
+  * [Сокеты](https://iwizy.github.io/integrations/network/sockets/) 🟢
 
 ## Нотации, диаграммы, моделирование 🔴
 

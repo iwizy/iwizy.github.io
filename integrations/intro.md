@@ -47,9 +47,9 @@ pagination_next: null
     * gRPC 🔴
     * JSON-RPC 🔴
     * WebSockets 🔴
-  * Брокеры сообщений 🔴
-    * Kafka 🔴
-    * RabbitMQ 🔴
+  * [Брокеры сообщений](/integrations/types/brokers/index.md)
+    * [Kafka](/integrations/types/brokers/kafka.md)
+    * [RabbitMQ](/integrations/types/brokers/rabbit.md)
   * [Общая БД](/integrations/types/common-db/index.md)
   * [Обмен файлами](/integrations/types/files/index.md)
 * [Сетевое взаимодействие](/integrations/network/index.md)
