@@ -66,7 +66,7 @@ slug: /skills
 * [Реплицирование данных](https://iwizy.github.io/database/replication/) 🟢
 * [Бекапирование данных](https://iwizy.github.io/database/backup/) 🟢
 
-## Интеграции 🟠
+## Интеграции 🟢
 
 * Проектирование API 🟢
   * [Сущности, атрибуты, контракты](https://iwizy.github.io/integrations/api-design/) 🟢
@@ -77,14 +77,14 @@ slug: /skills
     * [YAML](https://iwizy.github.io/integrations/api-design/formats/yaml/) 🟢
   * [Обратная совместимость](https://iwizy.github.io/integrations/api-design/back-compatibility/) 🟢
   * [Идемпотентность](https://iwizy.github.io/integrations/api-design/idempotency/) 🟢
-* Способы интеграции 🔴
-  * API 🔴
-    * REST/HTTP(S) 🔴
-    * SOAP 🔴
-    * GraphQL 🔴
-    * gRPC 🔴
-    * JSON-RPC 🔴
-    * WebSockets 🔴
+* [Способы интеграции](https://iwizy.github.io/integrations/types/) 🟢
+  * [API](https://iwizy.github.io/integrations/types/api/) 🟢
+    * [REST/HTTP(S)](https://iwizy.github.io/integrations/types/api/rest/) 🟢
+    * [SOAP](https://iwizy.github.io/integrations/types/api/soap/) 🟢
+    * [GraphQL](https://iwizy.github.io/integrations/types/api/graphql) 🟢
+    * [gRPC](https://iwizy.github.io/integrations/types/api/grpc/) 🟢
+    * [JSON-RPC](https://iwizy.github.io/integrations/types/api/json-rpc/) 🟢
+    * [WebSockets](https://iwizy.github.io/integrations/types/api/websockets/) 🟢
   * [Брокеры сообщений](https://iwizy.github.io/integrations/types/brokers/) 🟢
     * [Kafka](https://iwizy.github.io/integrations/types/brokers/kafka/) 🟢
     * [RabbitMQ](https://iwizy.github.io/integrations/types/brokers/rabbit/) 🟢
