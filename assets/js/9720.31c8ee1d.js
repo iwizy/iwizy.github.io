@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkiwizards_lounge=self.webpackChunkiwizards_lounge||[]).push([[9720],{9720:(e,r,s)=>{s.d(r,{createArchitectureServices:()=>c.S});var c=s(9936);s(9369)}}]);
