@@ -189,7 +189,7 @@ const config = {
           },
           {
             to: 'notations', 
-            label: 'Нотации',
+            label: 'Нотации 🟠',
             position: 'left',
             activeBaseRegex: `/notations`,
           },
@@ -211,7 +211,6 @@ const config = {
             position: 'left',
             activeBaseRegex: `/development`,
           },
-          
           {
             to: 'tools', 
             label: 'Инструменты',

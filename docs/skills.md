@@ -96,7 +96,7 @@ slug: /skills
   * [UDP](https://iwizy.github.io/integrations/network/udp) 🟢
   * [Сокеты](https://iwizy.github.io/integrations/network/sockets/) 🟢
 
-## Нотации, диаграммы, моделирование 🔴
+## Нотации, диаграммы, моделирование 🟠
 
 * UML 🔴
   * Sequence 🔴
