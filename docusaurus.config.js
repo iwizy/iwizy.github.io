@@ -211,12 +211,7 @@ const config = {
             position: 'left',
             activeBaseRegex: `/development`,
           },
-          {
-            to: 'metodologies', 
-            label: 'Методологии',
-            position: 'left',
-            activeBaseRegex: `/metodologies`,
-          },
+          
           {
             to: 'tools', 
             label: 'Инструменты',
@@ -228,6 +223,12 @@ const config = {
             position: 'left',
             type: 'dropdown',
             items: [
+              {
+                to: 'metodologies', 
+                label: 'Методологии',
+                docId: 'metodologies',
+                activeBaseRegex: `/metodologies`,
+              },
               {
                 to: 'general-competencies', 
                 label: 'Общие компетенции',
